@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Soulgram.Eventbus.Interfaces
 {
-	public interface IEventBusSubscriptionsManager
+    public interface IEventBusSubscriptionsManager
 	{
 		bool IsEmpty { get; }
 		event EventHandler<string> OnEventRemoved;

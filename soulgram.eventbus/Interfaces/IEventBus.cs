@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Soulgram.Eventbus.Interfaces
+﻿namespace Soulgram.Eventbus.Interfaces
 {
-	public interface IEventBus
+    public interface IEventBus
 	{
 		void Publish(IntegrationEvent @event);
 
