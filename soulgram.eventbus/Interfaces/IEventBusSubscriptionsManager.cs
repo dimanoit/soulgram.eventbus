@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Soulgram.Eventbus.Interfaces
 {
@@ -17,6 +18,10 @@ namespace Soulgram.Eventbus.Interfaces
 
 		bool HasSubscriptionsForEvent<T>() where T : IntegrationEvent;
 		bool HasSubscriptionsForEvent(string eventName);
+
+		IEnumerable<Type> GetHandlersForEvent<T>() where T : IntegrationEvent;
+		IEnumerable<Type> GetHandlersForEvent(string eventName);
+
 		Type GetEventTypeByName(string eventName);
 		void Clear();
 
