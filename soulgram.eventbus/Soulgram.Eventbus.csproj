@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Base interfaces for implementing event bus communication</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -9,6 +9,8 @@
     <Product>Soulgram</Product>
     <Authors>Dimanoit</Authors>
     <Version>1.1.2</Version>
+    <LangVersion>10</LangVersion>
+    <PackageVersion>2.0.0</PackageVersion>
   </PropertyGroup>
 
 </Project>
