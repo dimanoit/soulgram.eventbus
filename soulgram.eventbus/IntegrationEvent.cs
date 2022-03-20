@@ -2,7 +2,7 @@
 
 namespace Soulgram.Eventbus
 {
-	public record IntegrationEvent
+	public class IntegrationEvent
 	{
 		public IntegrationEvent()
 		{
