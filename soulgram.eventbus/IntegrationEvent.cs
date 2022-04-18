@@ -16,7 +16,7 @@ namespace Soulgram.Eventbus
 			CreationDate = createDate;
 		}
 
-		public Guid Id { get; }
+		public Guid Id { get; set; }
 
 		public DateTime CreationDate { get; }
 	}
